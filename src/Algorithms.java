@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 public class Algorithms {
 
-    // 1  task
+    // 1 task
     public static int findMin(int[] arr) {
         int min = arr[0];
         for (int num : arr) {
@@ -13,7 +13,7 @@ public class Algorithms {
         return min;
     }
 
-    // 2  task
+    // 2 task
     public static double calculateAverage(int[] arr) {
         int sum = 0;
         for (int num : arr) {
@@ -22,7 +22,7 @@ public class Algorithms {
         return (double) sum / arr.length;
     }
 
-    // 3  task
+    // 3 task
     public static boolean isPrime(int num) {
         if (num < 2) return false;
         for (int i = 2; i * i <= num; i++) {
@@ -33,13 +33,13 @@ public class Algorithms {
         return true;
     }
 
-    // 4  task
+    // 4 task
     public static long factorial(int n) {
         if (n == 0 || n == 1) return 1;
         return n * factorial(n - 1);
     }
 
-    // 5  task
+    // 5 task
     public static int fibonacci(int n) {
         if (n <= 1) return n;
         int[] f = new int[n + 1];
@@ -51,7 +51,7 @@ public class Algorithms {
         return f[n];
     }
 
-    // 6  task
+    // 6 task
     public static long power(int a, int n) {
         if (n == 0) return 1;
         long half = power(a, n / 2);
@@ -59,7 +59,7 @@ public class Algorithms {
         else return half * half * a;
     }
 
-    // 7  task
+    // 7 task
     public static void printReverse(int[] arr) {
         for (int i = arr.length - 1; i >= 0; i--) {
             System.out.print(arr[i] + " ");
@@ -67,7 +67,7 @@ public class Algorithms {
         System.out.println();
     }
 
-    // 8  task
+    // 8 task
     public static boolean isNumeric(String str) {
         for (char ch : str.toCharArray()) {
             if (!Character.isDigit(ch)) {
@@ -77,7 +77,7 @@ public class Algorithms {
         return true;
     }
 
-    // 9  task
+    // 9 task
     public static int binomialCoefficient(int n, int k) {
         int[][] C = new int[n + 1][k + 1];
         for (int i = 0; i <= n; i++) {
@@ -91,13 +91,13 @@ public class Algorithms {
         return C[n][k];
     }
 
-    // 10  task
+    // 10 task
     public static int gcd(int a, int b) {
         return b == 0 ? a : gcd(b, a % b);
     }
 
 
-    //result
+    // Result
     public static void main(String[] args) {
         int[] arr = {3, 5, 2, 7, 6};
 
@@ -107,7 +107,7 @@ public class Algorithms {
         System.out.println("4) Factorial of 6: " + factorial(6));
         System.out.println("5) 8th Fibonacci Number: " + fibonacci(8));
         System.out.println("6) 3^5: " + power(3, 5));
-        System.out.print("7) Array in reverse: "); printReverse(arr);
+        System.out.println("7) Array in reverse: "); printReverse(arr);
         System.out.println("8) Is '123987' Numeric? " + isNumeric("123987"));
         System.out.println("9) Binomial Coefficient C(7,3): " + binomialCoefficient(7, 3));
         System.out.println("10) GCD of 52 and 10: " + gcd(52, 10));
