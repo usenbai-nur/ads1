@@ -2,7 +2,9 @@
 
 ##   Project Description
 This project implements 10 fundamental algorithms in Java, covering number theory, combinatorics, and array manipulations. 
-Each algorithm is optimized for efficiency and analyzed for time complexity.
+Each algorithm is optimized for efficiency and analyzed for time complexity. This project is designed to strengthen understanding 
+of algorithmic thinking and computational problem-solving skills. It includes implementations that demonstrate different complexity 
+classes and their real-world applications.
 
 ##  Implemented Algorithms
 1. **Find Minimum in an Array**
