@@ -105,9 +105,9 @@ public class Algorithms {
         System.out.println("2) Average: " + calculateAverage(arr));
         System.out.println("3) Is 21 Prime? " + isPrime(21));
         System.out.println("4) Factorial of 6: " + factorial(6));
-        System.out.println("5) 5th Fibonacci Number: " + fibonacci(5));
+        System.out.println("5) 8th Fibonacci Number: " + fibonacci(8));
         System.out.println("6) 3^5: " + power(3, 5));
-        System.out.println("7) Array in reverse: "); printReverse(arr);
+        System.out.print("7) Array in reverse: "); printReverse(arr);
         System.out.println("8) Is '123987' Numeric? " + isNumeric("123987"));
         System.out.println("9) Binomial Coefficient C(7,3): " + binomialCoefficient(7, 3));
         System.out.println("10) GCD of 52 and 10: " + gcd(52, 10));
